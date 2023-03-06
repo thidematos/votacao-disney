@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faviconTSE.ico" type="image/x-icon">
+    <title>Votação Presencial</title>
+    <link rel="stylesheet" href="styleTSE.css">
+</head>
+<body>
+    <header>
+        <h1>Votações Presenciais da República Federativa do Brasil </h1>
+        <h2>Brasil: União e Reconstrução.</h2>
+        <nav>
+            <a href="https://www.tse.jus.br/servicos-eleitorais/autoatendimento-do-eleitor#/" target="_blank">Serviços eleitorais</a>
+            <a href="https://www.tse.jus.br/comunicacao" target="_blank">Comunicação</a>
+            <a href="https://www.tse.jus.br/jurisprudencia/decisoes/jurisprudencia" target="_blank">Jurisprudência</a>
+            <a href="https://www.tse.jus.br/servicos-judiciais/processos/processos" target="_blank">Serviços Judiciais</a>
+            <a href="https://www.tse.jus.br/institucional/justica-eleitoral/historia/historia-do-tse" target="_blank">Institucional</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Votação presencial do ano de 2026</h2>
+            <article>
+                
+                <h3>Faça parte dessa história de vitórias da democracia.</h3>
+                <p>Registre seu voto, de acordo com o número das coligações concorrentes:</p>
+                
+                <ul id="lista">
+                    <li>
+                        1 - Huguinho Pato
+                        <img src="hugo-g.png" alt="Huguinho">
+                    </li>
+                    <li>
+                        2 - Luizinho Pato
+                        <img src="luis-g.png" alt="Zezinho">
+                        
+                    </li>
+                    <li>
+                        3 - Zezinho Pato
+                        <img src="ze-g.png" alt="Zezinho">
+                    </li>
+                </ul>
+                <p id="voto">
+                    Insira seu voto:
+                    <input type="number" name="insert" id="numV">
+                    <input type="button" value="Votar!" id="button" onclick="votar()">
+                </p>
+                <p id="res">
+                </p>
+                <p><input type="button" value="Resultado" onclick="resultado()"></p>
+                <p id="resT"></p>              
+            </article>
+        </section>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+
+    </footer>
+    <script src="votacao.js"></script>
+</body>
+</html>
